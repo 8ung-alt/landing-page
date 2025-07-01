@@ -117,7 +117,7 @@ button {
 
 .person {
     align-self: flex-end;
-    font-style: bold;
+    font-weight: bold;
     font-size: 20px;
 }
 
