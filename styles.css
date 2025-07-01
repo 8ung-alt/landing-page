@@ -6,7 +6,7 @@ body {
 
 img {
     width: 200px;
-    height: auto;
+    height: 200px;
 }
 
 #logo {
@@ -71,3 +71,30 @@ button {
     font-weight: bold;
 }
 
+.content-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px;
+}
+
+.thumbnail-container {
+    padding: 0;
+    justify-content: space-around;
+}
+
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.images {
+    margin: 20px;
+    border-radius: 50%;
+    border: 5px solid #3882F6;
+}
