@@ -29,7 +29,7 @@ img {
     align-items: center;
 }
 
-.header-container, .hero-container{
+.header-container, .hero-container, footer{
     background-color: #1F2937;
     justify-content: space-between;
 }
@@ -118,4 +118,9 @@ button {
     align-self: flex-end;
     font-style: bold;
     font-size: 20px;
+}
+
+footer {
+    color: #E5E7Eb;
+    text-align: center;
 }
