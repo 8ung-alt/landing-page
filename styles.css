@@ -14,7 +14,7 @@ img {
     height: auto;
 }
 
-.header-container, .hero-container, .content, .thumbnail-container, .left-container {
+.header-container, .hero-container, .content, .thumbnail-container, .left-container, .quote-container {
     display: flex;
     padding: 10px 100px;
 }
@@ -97,4 +97,24 @@ button {
     margin: 20px;
     border-radius: 50%;
     border: 5px solid #3882F6;
+}
+
+.quote-container {
+    background-color: #E5E7Eb;
+    padding: 10px 100px;
+    flex-direction: column;
+
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+}
+
+.person {
+    align-self: flex-end;
+    font-style: bold;
+    font-size: 20px;
 }
