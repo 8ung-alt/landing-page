@@ -14,7 +14,7 @@ img {
     height: auto;
 }
 
-.header-container, .hero-container, .content, .thumbnail-container, .left-container, .quote-container {
+.header-container, .hero-container, .content, .thumbnail-container, .left-container, .quote-container, .signup-container {
     display: flex;
     padding: 10px 100px;
 }
@@ -120,6 +120,29 @@ button {
     font-size: 20px;
 }
 
+.signup-container {
+    background-color: #3882F6;
+    margin: 75px 100px;
+    padding: 20px 100px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    color: #E5E7Eb;
+}
+
+.signup-title {
+    font-weight: 900;
+}
+
+.signup-button {
+    border: 2px solid #E5E7Eb;
+    padding: 10px 10px;
+    max-width: 150px;
+    width: 150px;
+}
 footer {
     color: #E5E7Eb;
     text-align: center;
